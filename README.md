@@ -9,7 +9,7 @@ This repository contains Python code for solving the Traveling Salesman Problem 
 Christofides' algorithm is employed to find an approximate solution to the TSP. The algorithm is well-regarded for its performance guarantee, offering a solution within 1.5 times the optimal route length. The implementation follows these key steps:
 
 1. **Graph Construction**: Build a complete graph where nodes represent addresses and edges represent distances between them.
-2. **Minimum Spanning Tree (MST)**: Compute an MST to minimize the sum of edge weights.
+2. **Minimum Spanning Tree (MST)**: Compute an MST to minimize the sum of edge weights. Using the MSTplotting.py file you can also print a diagram of the Minimum Spanning Tree if it is necessary.
 3. **Perfect Matching**: Identify nodes with odd degrees and find a minimum weight perfect matching to achieve an Eulerian graph.
 4. **Eulerian Circuit**: Formulate an Eulerian circuit that visits each edge exactly once.
 5. **Hamiltonian Circuit**: Convert the Eulerian circuit to a Hamiltonian circuit by avoiding revisits to the already visited nodes.
